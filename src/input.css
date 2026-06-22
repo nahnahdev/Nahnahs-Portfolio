@@ -24,6 +24,7 @@
 
   body {
     @apply m-0;
+
     background:
       radial-gradient(circle at top left, rgba(230, 154, 102, 0.32), transparent 36%),
       radial-gradient(circle at top right, rgba(108, 140, 123, 0.18), transparent 30%),
@@ -63,6 +64,7 @@
   .eyebrow {
     color: var(--accent-deep);
     letter-spacing: 0.24em;
+
     @apply mb-4 text-xs font-bold uppercase;
   }
 
@@ -92,6 +94,7 @@
   .project-card p,
   .strength-card p {
     color: var(--muted);
+
     @apply text-base leading-7 md:text-lg;
   }
 
@@ -130,6 +133,7 @@
     background: rgba(255, 250, 244, 0.76);
     border: 1px solid var(--border);
     box-shadow: 0 12px 30px rgba(46, 24, 10, 0.08);
+
     @apply mx-auto flex max-w-6xl items-center justify-between rounded-full px-5 py-4 md:px-7;
   }
 
@@ -143,6 +147,7 @@
 
   .brand-mark__text {
     color: var(--text);
+
     @apply text-sm font-bold leading-tight;
   }
 
@@ -153,6 +158,7 @@
   .nav-links a,
   .mobile-menu a {
     color: var(--muted);
+
     @apply text-sm font-medium transition duration-300;
   }
 
@@ -166,6 +172,7 @@
 
   .nav-cta {
     background: var(--accent);
+
     @apply hidden rounded-full px-5 py-3 text-sm font-bold text-white md:inline-flex;
   }
 
@@ -175,11 +182,13 @@
 
   .menu-toggle {
     border: 1px solid var(--border);
+
     @apply flex h-11 w-11 flex-col items-center justify-center gap-1 rounded-full md:hidden;
   }
 
   .menu-toggle span {
     background: var(--text);
+
     @apply block h-0.5 w-4;
   }
 
@@ -187,6 +196,7 @@
     background: rgba(255, 250, 244, 0.95);
     border: 1px solid var(--border);
     border-radius: 2rem;
+
     @apply mx-auto mt-3 hidden max-w-6xl px-5 py-5 shadow-xl;
   }
 
@@ -200,6 +210,7 @@
 
   .mobile-menu__cta {
     background: var(--text);
+
     @apply mt-3 rounded-full px-5 py-3 text-center font-bold text-white;
   }
 
@@ -223,11 +234,13 @@
 
   .hero-copy h1 span {
     color: var(--accent-deep);
+
     @apply block italic;
   }
 
   .hero-role {
     color: var(--accent);
+
     @apply mt-6 text-lg font-bold md:text-2xl;
   }
 
@@ -246,6 +259,7 @@
   .social-links a {
     background: rgba(255, 250, 244, 0.72);
     border: 1px solid var(--border);
+
     @apply inline-flex items-center gap-3 rounded-full px-4 py-3 text-sm font-medium transition duration-300;
   }
 
@@ -274,12 +288,14 @@
 
   .hero-panel__card {
     border-radius: 2rem;
+
     @apply p-7 md:p-8;
   }
 
   .hero-panel__label {
     color: var(--accent-deep);
     letter-spacing: 0.2em;
+
     @apply text-sm font-bold uppercase;
   }
 
@@ -289,11 +305,13 @@
 
   .hero-panel__list li {
     color: var(--muted);
+
     @apply text-base leading-7;
   }
 
   .hero-panel__stats {
     border-radius: 2rem;
+
     @apply grid gap-4 p-7;
   }
 
@@ -303,6 +321,7 @@
 
   .hero-panel__stats span {
     color: var(--muted);
+
     @apply mt-1 block text-sm leading-6;
   }
 
@@ -312,6 +331,7 @@
 
   .project-card {
     border-radius: 2rem;
+
     @apply flex h-full flex-col justify-between p-7 md:p-8;
   }
 
@@ -319,12 +339,14 @@
     border: 1px solid rgba(106, 78, 50, 0.14);
     border-radius: 1.4rem;
     box-shadow: 0 16px 40px rgba(48, 28, 16, 0.08);
+
     @apply mb-6 h-auto w-full object-cover;
   }
 
   .project-card__eyebrow {
     color: var(--accent);
     letter-spacing: 0.22em;
+
     @apply text-xs font-bold uppercase;
   }
 
@@ -337,6 +359,7 @@
 
   .project-card__impact {
     color: var(--text) !important;
+
     @apply mt-4 font-medium;
   }
 
@@ -346,6 +369,7 @@
 
   .project-proof-list li {
     color: var(--muted);
+
     @apply text-sm leading-6;
   }
 
@@ -364,6 +388,7 @@
   .tech-list span {
     background: var(--accent-soft);
     color: var(--accent-deep);
+
     @apply rounded-full px-4 py-2 text-sm font-bold;
   }
 
@@ -379,6 +404,7 @@
 
   .about-profile {
     border-radius: 2rem;
+
     @apply grid gap-6 p-6 md:p-8;
   }
 
@@ -391,7 +417,9 @@
   .about-profile img {
     border-radius: 1.5rem;
     aspect-ratio: 4 / 5;
+
     @apply h-auto w-full self-start object-cover;
+
     max-width: 240px;
   }
 
@@ -401,6 +429,7 @@
 
   .about-skills {
     border-radius: 2rem;
+
     @apply p-6 md:p-8;
   }
 
@@ -410,6 +439,7 @@
 
   .about-skill-group h4 {
     color: var(--accent-deep);
+
     @apply text-sm font-bold uppercase tracking-[0.18em];
   }
 
@@ -423,11 +453,13 @@
 
   .strength-card {
     border-radius: 2rem;
+
     @apply p-6;
   }
 
   .contact-panel {
     border-radius: 2.25rem;
+
     @apply grid gap-8 p-6 md:p-8;
   }
 
@@ -459,11 +491,13 @@
 
   .contact-points a {
     color: var(--accent-deep);
+
     @apply text-base font-bold;
   }
 
   .contact-form {
     border-radius: 2rem;
+
     @apply p-6 md:p-8;
   }
 
@@ -476,6 +510,7 @@
     background: rgba(255, 255, 255, 0.64);
     border: 1px solid rgba(106, 78, 50, 0.2);
     color: var(--text);
+
     @apply mt-2 w-full rounded-3xl px-4 py-4 text-base outline-none transition duration-300;
   }
 
@@ -487,6 +522,7 @@
 
   .site-footer {
     border-top: 1px solid var(--border);
+
     @apply mt-10 py-8;
   }
 
