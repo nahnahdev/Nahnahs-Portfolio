@@ -1,160 +1,180 @@
 import React from 'react';
 
-const Projects = () => {
-  const projects = [
-    {
-      id: 0,
-      name: 'Eco Builders Construction Page',
-      technologies: 'HTML5, CSS3, Javascript, Bootstrap',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679235534/work1_vktdop.png',
-      description:
-        'In this project, I will build a simple website for a construction company that builds durable and eco-friendly buildings. The main goal is to put into practice the concepts that I have learned about positioning elements using Flexbox and Grid.',
-      liveVersion: 'https://nahnahaj.github.io/construction-page/',
-      source: 'https://github.com/NahnahAJ/construction-page',
-    },
-    {
-      id: 1,
-      name: 'ClinixGo Health Care Page',
-      technologies: 'Rails, React, Javascript, Bootstrap, HTML/CSS',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679244665/Screenshot_from_2023-03-19_16-50-48_nwe23k.png',
-      description:
-        'The project is based on an app to book an appointment with a health specialist(Doctor). The doctor appointment booking app permits healthcare providers to manage their appointments with increased efficiency while giving reliable management. However, it displays all details of the patients, complete history of appointment, analyses the doctors, etc',
-      liveVersion: 'https://clinixgo.up.railway.app/',
-      source: 'https://github.com/Strangeal/ClinixGo',
-    },
-    {
-      id: 2,
-      name: 'To-Do List Web App',
-      technologies: 'HTML5, CSS3, Javascript, Webpack',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679235584/work2_oydama.png',
-      description:
-        'In this project, you will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.',
-      liveVersion: 'https://nahnahaj.github.io/To-Do-List/dist/',
-      source: 'https://github.com/NahnahAJ/To-Do-List',
-    },
-    {
-      id: 3,
-      name: 'Leaderboard Web App',
-      technologies: 'HTML5, CSS3, Javascript, Webpack',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679235608/work3_lmizxf.png',
-      description:
-        'In this project, I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I will also use ES6 syntax, features, and modules to write modular JavaScript with proper ES6+ syntax and best practices.',
-      liveVersion: 'https://nahnahaj.github.io/Leaderboard/dist/',
-      source: 'https://github.com/NahnahAJ/Leaderboard',
-    },
-    {
-      id: 4,
-      name: 'Transaracts Budget Mobile App',
-      technologies: 'Rails, Javascript, Bootstrap, CSS',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679246597/Screenshot_from_2023-03-19_17-23-03_wrvopw.png',
-      description:
-        'With this App, you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what. A user is allowed to: register and log in, so that the data is private to them. New transactions are associated with a category : You can see the money spent on each category.',
-      liveVersion: 'https://budget-app-3fe3.onrender.com/',
-      source:
-        'https://github.com/NahnahAJ/Ruby-on-Rails-capstone-project---Budget-App',
-    },
-    {
-      id: 5,
-      name: 'Math Magicians Web App',
-      technologies: 'React, Redux, Javascript, HTML/CSS',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679235630/work4_hspf36.png',
-      description:
-        '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
-      liveVersion: 'https://fancy-empanada-434a74.netlify.app/',
-      source: 'https://github.com/NahnahAJ/Math-magicians-Web-App',
-    },
-    {
-      id: 6,
-      name: 'Space Travelers Hub',
-      technologies: 'React, Redux, Bootstrap, SpaceXAPI',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679235660/work5_mmmdgs.png',
-      description:
-        'In this task, we use the real live data from the SpaceX API. This web application is for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
-      liveVersion: 'https://space-travelers-hub-nd.netlify.app/',
-      source: 'https://github.com/NahnahAJ/Space-Travelers-Hub',
-    },
-    {
-      id: 7,
-      name: 'Metrics Web App',
-      technologies: 'React, Redux, Javascript, HTML/CSS',
-      image:
-        'https://res.cloudinary.com/db3ckadxp/image/upload/v1679235669/work6_tpynfq.png',
-      description:
-        'Metrics Web App is a mobile web application to that is used to check a list of metrics (numeric values) that will be created by making use of React and Redux and Data from the ACNH API',
-      liveVersion: 'https://vintage-art-collection.netlify.app/',
-      source: 'https://github.com/NahnahAJ/Metrics-Web-App',
-    },
-  ];
+const featuredProjects = [
+  {
+    id: 1,
+    name: 'Feltrac',
+    image:
+      'https://res.cloudinary.com/db3ckadxp/image/upload/v1782107450/Screenshot_2026-06-22_at_05.50.22_pgjpbr.png',
+    stack: [
+      'React',
+      'TypeScript',
+      'Ruby on Rails 8',
+      'PostgreSQL',
+      'Zustand',
+      'IndexedDB / PWA',
+      'Devise-JWT',
+      'Kamal',
+      'DigitalOcean',
+    ],
+    description:
+      'A retail operations platform for multi-location inventory, POS sales, stock transfers, supplier workflows, customer debt tracking, payroll, and financial reconciliation.',
+    impact:
+      'This is my strongest lead project because it combines operational depth with serious engineering work: idempotent transaction flows, end-of-day reconciliation, offline-first selling, and per-location sync for real retail environments.',
+    proof: [
+      '40+ domain models and 60+ API endpoints',
+      'Offline-first PWA support for low-connectivity retail use',
+      'Per-location sync, reconciliation, and retry-safe transaction flows',
+    ],
+    links: [
+      { href: 'https://feltrac.com', label: 'Live app' },
+      { href: '#contact', label: 'Ask for walkthrough' },
+      {
+        href: 'https://github.com/nahnahdev/stock-platform-frontend',
+        label: 'Frontend repo',
+      },
+      {
+        href: 'https://github.com/nahnahdev/stock-platform-backend',
+        label: 'Backend repo',
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Haus of Mykonos',
+    image:
+      'https://res.cloudinary.com/db3ckadxp/image/upload/v1782107544/Screenshot_2026-06-22_at_05.52.09_w0bc2r.png',
+    stack: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'Supabase',
+      'Paystack',
+      'Radix UI',
+      'Vercel APIs',
+    ],
+    description:
+      'An events and ticketing platform for discovering experiences, purchasing passes, managing event content, and handling entry operations from checkout to QR-based check-in.',
+    impact:
+      'This project shows end-to-end product ownership: payments, ticket inventory, discount codes, promoter tracking, admin dashboard flows, secure QR validation, and production-minded API hardening.',
+    proof: [
+      'Integrated Paystack payments and webhook verification',
+      'QR-based ticket validation and check-in workflows',
+      'Admin tooling for events, galleries, promos, and tracking',
+    ],
+    links: [
+      { href: 'https://hausofmykonos.com', label: 'Live platform' },
+      { href: 'https://github.com/nahnahdev/haus-of-mykonos', label: 'Source code' },
+    ],
+  },
+  {
+    id: 3,
+    name: 'Claims Management System',
+    stack: [
+      'Python',
+      'Flask',
+      'PostgreSQL',
+      'Firebase',
+      'Async APIs',
+      'Billing workflows',
+    ],
+    description:
+      'A Python-based claims management and billing system built for a U.S. medical practice, covering patient appointments, insurance workflows, claims creation, and submission.',
+    impact:
+      'This project is a strong backend proof point because it centered on workflow-heavy delivery in a regulated setting, including asynchronous API calls that improved response time and supported real operational use.',
+    proof: [
+      'Claims creation, submission, and billing workflow support',
+      'Async API integration that improved response time by 40%',
+      'Built around real operational use in a medical setting',
+    ],
+    links: [
+      { href: '#contact', label: 'Discuss project' },
+      { href: 'mailto:nahnahahjuwah@gmail.com', label: 'Request details' },
+    ],
+  },
+  {
+    id: 4,
+    name: 'Ceditrack',
+    stack: [
+      'React Native',
+      'Expo',
+      'Expo Router',
+      'Supabase',
+      'TypeScript',
+      'Zustand',
+    ],
+    description:
+      'A mobile finance app for tracking cash, MoMo, bank activity, personal debts, transfers, and susu group savings in one place.',
+    impact:
+      'This project adds mobile product depth to the portfolio and shows how I think about everyday financial workflows, onboarding, state management, and utility-driven interface design.',
+    proof: [
+      'Onboarding and month-based budgeting flows',
+      'Debt tracking, transfers, and susu group savings support',
+      'Mobile-first state management with Expo and Supabase',
+    ],
+    links: [
+      { href: '#contact', label: 'Ask for preview' },
+      { href: 'https://github.com/nahnahdev/ceditrack', label: 'Source code' },
+    ],
+  },
+];
 
-  return (
-    <section id="projects" className="container mx-auto pt-12 text-center md:p-12">
-      <div className="text-5xl font-extrabold ... pb-12">
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-          Projects
-        </span>
-      </div>
-      <div className="p-6 flex flex-col gap-6">
-        {projects.map((project) => (
-          <div
-            href="#"
-            className="flex flex-col justify-center w-full bg-white border border-gray-200 pb-4 md:mb-12 rounded-lg shadow-md md:flex-row justify-around hover:bg-gray-100"
-            key={project.id}
-          >
+const Projects = () => (
+  <section id="projects" className="section-shell section-spacing">
+    <div className="section-heading">
+      <p className="eyebrow">Selected work</p>
+      <h2>Projects that show range, not just activity.</h2>
+      <p>
+        This collection is curated to reflect the kind of engineer I am now:
+        someone who can build around real operations, shape dependable product
+        workflows, and support systems with stronger backend and infrastructure
+        thinking.
+      </p>
+    </div>
+
+    <div className="projects-grid">
+      {featuredProjects.map((project) => (
+        <article key={project.id} className="project-card">
+          {project.image ? (
             <img
-              className="object-cover w-full rounded-t-lg h-64 md:h-auto md:w-1/2 md:rounded-none md:rounded-r-lg"
               src={project.image}
-              alt="projectImage"
+              alt={`${project.name} interface preview`}
+              className="project-card__image"
             />
-            <div className="flex flex-col justify-between p-4 leading-normal md:text-left w-full md:w-auto">
-              <h2 className="font-bold text-2xl text-gray-900">
-                {project.name}
-              </h2>
-              <span className="text-indigo-500 flex flex-wrap mt-2 justify-center md:justify-start">
-                {/* Project languages */}
-                {project.technologies
-          && project.technologies.split(',').map((language) => (
-            <span
-              className="inline-block bg-indigo-100 text-indigo-500 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 justify-center"
-              key={project.id}
-            >
-              {language}
-            </span>
-          ))}
-              </span>
-              <p className="mt-4 text-gray-700">{project.description}</p>
-              <div className="flex justify-between items-center mt-6 gap-4">
-                <button className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={project.liveVersion}
-                  >
-                    View Project
-                  </a>
-                </button>
-                <button className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={project.source}
-                  >
-                    View Code
-                  </a>
-                </button>
-              </div>
+          ) : null}
+          <div className="project-card__content">
+            <h3>{project.name}</h3>
+            <p>{project.description}</p>
+            <p className="project-card__impact">{project.impact}</p>
+            <ul className="project-proof-list">
+              {project.proof.map((item) => (
+                <li key={`${project.id}-${item}`}>{item}</li>
+              ))}
+            </ul>
+
+            <div className="tech-list">
+              {project.stack.map((item) => (
+                <span key={`${project.id}-${item}`}>{item}</span>
+              ))}
             </div>
           </div>
-        ))}
-      </div>
-    </section>
-  );
-};
+
+          <div className="project-card__links">
+            {project.links.map((link) => (
+              <a
+                key={`${project.id}-${link.label}`}
+                href={link.href}
+                target={link.href.startsWith('#') ? undefined : '_blank'}
+                rel={link.href.startsWith('#') ? undefined : 'noreferrer'}
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+);
 
 export default Projects;
