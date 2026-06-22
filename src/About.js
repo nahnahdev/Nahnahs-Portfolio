@@ -79,10 +79,10 @@ const About = () => (
       <h2>An engineer with more depth, more clarity, and better taste.</h2>
       <p>
         I earned a BSc in Consumer Sciences from the University of Ghana and a
-        Full Stack Web Development certificate from Microverse. Over time,
-        I&apos;ve grown into work that combines product-facing development with
-        stronger full-stack execution, backend systems thinking, cloud
-        awareness, and sharper technical judgment.
+        Full Stack Web Development certificate from Microverse. Since then
+        I&apos;ve moved from product-facing development into full-stack
+        delivery, backend systems, and hands-on cloud and deployment work, with
+        sharper judgment about what makes software dependable.
       </p>
     </div>
 
@@ -96,12 +96,12 @@ const About = () => (
           <h3>Felicia G. Awuah</h3>
           <p>
             I build software that is usable, dependable, and shaped around real
-            operational needs. My recent work includes a retail operations
-            platform, a Python-based claims management system for a U.S.
-            medical practice, and system-to-system data synchronization in more
-            complex backend environments. I also hold the AWS Certified Cloud
-            Practitioner certification, which supports the cloud,
-            infrastructure, and deployment side of my work.
+            operational needs. Across 4+ years I&apos;ve shipped production
+            systems end to end, including a retail platform spanning 40+ domain
+            models and 60+ API endpoints with offline-first sync, and grown into
+            the deployment, cloud, and reliability side of the work. That
+            infrastructure focus is backed by the AWS Certified Cloud
+            Practitioner certification.
           </p>
           <div className="about-actions">
             <a

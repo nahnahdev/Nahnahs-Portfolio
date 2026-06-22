@@ -3,14 +3,14 @@ import Socials from './Socials';
 
 const roles = [
   'Full-Stack Software Engineer',
-  'Product-Minded Engineer',
-  'Backend and Infrastructure-Focused Engineer',
+  'Backend & Infrastructure Engineer',
+  'Cloud & Deployment Engineer',
 ];
 
 const highlights = [
-  'Full-stack engineering across web, mobile, and backend systems',
+  '4+ years building and shipping production systems across web, mobile, and backend',
   'Workflow-heavy systems across retail operations, claims management, and cross-system sync',
-  'Growing infrastructure depth across deployment, cloud, reliability, and support',
+  'Infrastructure depth across AWS, DigitalOcean, CI/CD, deployment, and reliability',
 ];
 
 const Homepage = () => {
@@ -35,12 +35,12 @@ const Homepage = () => {
           </h1>
           <p className="hero-role">{roles[roleIndex]}</p>
           <p className="hero-summary">
-            I&apos;m Felicia G. Awuah, a full-stack software engineer building
-            across web, mobile, backend, and infrastructure. I work on
-            operational systems where product clarity, dependable engineering,
-            and real business needs all have to meet, from retail platforms
-            and mobile finance tools to claims workflows and connected-system
-            sync.
+            I&apos;m Felicia G. Awuah, a full-stack engineer with infrastructure
+            depth, building across web, mobile, and the systems behind them. I
+            work on operational systems where product clarity, dependable
+            engineering, and real business needs all have to meet,
+            from retail platforms and mobile finance tools to claims workflows
+            and connected-system sync.
           </p>
 
           <div className="hero-actions">
@@ -72,13 +72,13 @@ const Homepage = () => {
             </div>
             <div>
               <strong>Backend systems</strong>
-              <span>Building application logic and APIs that are structured to last</span>
+              <span>40+ models and 60+ API endpoints in production, structured to last</span>
             </div>
             <div>
               <strong>Infrastructure thinking</strong>
               <span>
-                Supporting products with deployment, cloud, reliability, and
-                operational awareness
+                AWS and DigitalOcean provisioning, CI/CD, and Nginx/SSL for
+                reliable deployments
               </span>
             </div>
           </div>
