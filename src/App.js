@@ -9,14 +9,14 @@ import './input.css';
 
 function App() {
   return (
-    <>
+    <div className="app-shell">
       <Navbar />
       <Homepage />
       <Projects />
       <About />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
