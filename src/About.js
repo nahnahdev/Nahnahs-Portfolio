@@ -56,10 +56,19 @@ const About = () => (
               React
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
+              React Native
+            </li>
+            <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
               Ruby
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
               Ruby On Rails
+            </li>
+            <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
+              Node.js
+            </li>
+            <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
+              Next.js
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
               Tailwind CSS
@@ -106,9 +115,9 @@ const About = () => (
           />
           <p className="text-gray-700 text-base mb-4">
             {' '}
-            I have a Bachelor of Science in Business Administration with a
-            concentration in Finance from the University of Maryland, College
-            Park. I also have a certificate in Full Stack Web Development from
+            I have a Bachelor of Science in Consumer Sciences with a
+            concentration in Foods from the University of Ghana, Accra,
+            Ghana. I also have a certificate in Full Stack Web Development from
             Microverse Inc, San Francisco California.
           </p>
           {/* Download CV */}
@@ -116,7 +125,7 @@ const About = () => (
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1fJc94QcN0OcwXY5IUQEjMY6Gzjn6_3E9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wteKIIbqVAh1ifpAs-_CVzv8JnPLsWWx/view?usp=sharing"
               className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
             >
               Download CV
