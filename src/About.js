@@ -57,7 +57,7 @@ const strengths = [
   {
     title: 'Current direction',
     description:
-      'I am most drawn to products with real operational complexity, where strong engineering, usable interfaces, and dependable systems all matter at the same time.',
+      'I am most drawn to products with real operational complexity, where strong engineering, usable interfaces, secure integrations, and dependable systems all matter at the same time.',
   },
 ];
 
@@ -80,9 +80,9 @@ const About = () => (
       <p>
         I earned a BSc in Consumer Sciences from the University of Ghana and a
         Full Stack Web Development certificate from Microverse. Since then
-        I&apos;ve moved from product-facing development into full-stack
-        delivery, backend systems, and hands-on cloud and deployment work, with
-        sharper judgment about what makes software dependable.
+        I&apos;ve grown from product-facing development into backend systems,
+        full-stack delivery, and hands-on cloud and deployment work, with
+        sharper judgment about what makes software dependable in production.
       </p>
     </div>
 
@@ -97,11 +97,18 @@ const About = () => (
           <p>
             I build software that is usable, dependable, and shaped around real
             operational needs. Across 4+ years I&apos;ve shipped production
-            systems end to end, including a retail platform spanning 40+ domain
-            models and 60+ API endpoints with offline-first sync, and grown into
-            the deployment, cloud, and reliability side of the work. That
-            infrastructure focus is backed by the AWS Certified Cloud
-            Practitioner certification.
+            systems end to end, from retail operations platforms and healthcare
+            claims workflows to backend APIs, auth integrations, and cloud
+            deployments. My strongest work increasingly sits at the intersection
+            of backend engineering, infrastructure, and full-stack product
+            delivery, with the AWS Certified Cloud Practitioner certification
+            supporting that hands-on cloud and deployment practice.
+          </p>
+          <p>
+            I&apos;m also currently enrolled in the ALX Professional Foundations
+            Cybersecurity track and studying toward the KCNA certification,
+            deepening the security and cloud-native side of my engineering
+            foundation.
           </p>
           <div className="about-actions">
             <a
@@ -154,8 +161,8 @@ const About = () => (
       <p className="eyebrow">Certifications</p>
       <h2>Credentials that support the engineering story.</h2>
       <p>
-        These certifications back up the practical work already visible in the
-        projects, especially on the cloud and full-stack side.
+        These credentials support the practical work already visible in the
+        projects, especially on the cloud, deployment, and full-stack side.
       </p>
     </div>
 

@@ -333,15 +333,16 @@
   .project-card {
     border-radius: 2rem;
 
-    @apply flex h-full flex-col justify-between p-7 md:p-8;
+    @apply flex h-full flex-col p-7 md:p-8;
   }
 
   .project-card__image {
+    background: var(--surface-strong);
     border: 1px solid rgba(106, 78, 50, 0.14);
     border-radius: 1.4rem;
     box-shadow: 0 16px 40px rgba(48, 28, 16, 0.08);
 
-    @apply mb-6 h-auto w-full object-cover;
+    @apply mb-6 h-56 w-full object-contain;
   }
 
   .project-card__eyebrow {
@@ -358,12 +359,6 @@
     @apply mt-4 text-2xl font-bold md:text-3xl;
   }
 
-  .project-card__impact {
-    color: var(--text) !important;
-
-    @apply mt-4 font-medium;
-  }
-
   .project-proof-list {
     @apply mt-5 space-y-3 pl-5;
   }
@@ -375,7 +370,7 @@
   }
 
   .project-card__links {
-    @apply mt-8 flex flex-wrap gap-5 text-sm font-bold;
+    @apply mt-auto flex flex-wrap gap-5 pt-8 text-sm font-bold;
   }
 
   .project-card__links a {

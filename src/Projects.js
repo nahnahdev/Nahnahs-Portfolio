@@ -19,8 +19,6 @@ const featuredProjects = [
     ],
     description:
       'A retail operations platform for multi-location inventory, POS sales, stock transfers, supplier workflows, customer debt tracking, payroll, and financial reconciliation.',
-    impact:
-      'This is my strongest lead project because it combines operational depth with serious engineering work: idempotent transaction flows, end-of-day reconciliation, offline-first selling, and per-location sync for real retail environments.',
     proof: [
       '40+ domain models and 60+ API endpoints',
       'Offline-first PWA support for low-connectivity retail use',
@@ -28,7 +26,7 @@ const featuredProjects = [
       'Deployed to DigitalOcean with Kamal, Nginx, and SSL termination',
     ],
     links: [
-      { href: 'https://feltrac.com', label: 'Live app' },
+      { href: 'https://feltrac.com', label: 'Live site' },
       { href: '#contact', label: 'Ask for walkthrough' },
       {
         href: 'https://github.com/nahnahdev/stock-platform-frontend',
@@ -42,6 +40,83 @@ const featuredProjects = [
   },
   {
     id: 2,
+    name: 'Claims Management Platform',
+    stack: [
+      'Python',
+      'Flask',
+      'PostgreSQL',
+      'Firebase',
+      'Bootstrap',
+      'JavaScript',
+      'drchrono API',
+      'Async processing',
+    ],
+    description:
+      'A full-stack healthcare claims management platform built for a U.S. medical practice, integrating with the drchrono API to manage patient records, appointments, insurance, billing, and claims workflows.',
+    proof: [
+      'Built both the frontend and backend for day-to-day operational use in a medical setting',
+      'Implemented claims creation and submission workflows across the claims lifecycle',
+      'Integrated with drchrono to sync patient, appointment, insurance, and billing data',
+      'Used asynchronous processing for claim-related operations, improving response time by 40%',
+    ],
+    links: [
+      { href: '#contact', label: 'Discuss project' },
+      { href: 'mailto:nahnahahjuwah@gmail.com', label: 'Request details' },
+    ],
+  },
+  {
+    id: 3,
+    name: 'Purple Wave Appraisal Service API & Heavyworth Integration',
+    stack: [
+      'Ruby on Rails',
+      'PostgreSQL',
+      'AWS',
+      'Capistrano',
+      'GitHub Actions',
+      'Nginx',
+      'Sidekiq',
+      'Redis',
+      'NATS',
+    ],
+    description:
+      'Production Rails API services supporting Purple Wave appraisal operations, authentication workflows, user access, and internal service integrations.',
+    proof: [
+      'Implemented and supported bidirectional synchronization between the Purple Wave Appraisal Service API and Heavyworth Appraisal Service',
+      'Kept appraisal, inventory, and operational data consistent across connected systems',
+      'Improved API reliability by fixing revoked-invitation handling and returning accurate authorization errors',
+      'Maintained deployment workflows, environment configuration, secrets management, and release processes across staging and production',
+    ],
+    links: [
+      { href: '#contact', label: 'Discuss project' },
+      { href: 'mailto:nahnahahjuwah@gmail.com', label: 'Request details' },
+    ],
+  },
+  {
+    id: 4,
+    name: 'Alveohive',
+    image:
+      'https://res.cloudinary.com/db3ckadxp/image/upload/v1782115845/Screenshot_2026-06-22_at_08.10.23_ndnljm.png',
+    stack: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Ruby on Rails',
+      'PostgreSQL',
+    ],
+    description:
+      'A modern real estate platform for listing, discovering, and managing properties, built with a Next.js frontend and a Ruby on Rails API.',
+    proof: [
+      'Grew property listings by 40% after launch',
+      'Migrated key features from a legacy platform with feature parity',
+      'Companion mobile app for field agents to manage listings on the go',
+    ],
+    links: [
+      { href: 'https://alveohive.com', label: 'Live site' },
+      { href: '#contact', label: 'Discuss project' },
+    ],
+  },
+  {
+    id: 5,
     name: 'Haus of Mykonos',
     image:
       'https://res.cloudinary.com/db3ckadxp/image/upload/v1782107544/Screenshot_2026-06-22_at_05.52.09_w0bc2r.png',
@@ -56,45 +131,18 @@ const featuredProjects = [
     ],
     description:
       'An events and ticketing platform for discovering experiences, purchasing passes, managing event content, and handling entry operations from checkout to QR-based check-in.',
-    impact:
-      'This project shows end-to-end product ownership: payments, ticket inventory, discount codes, promoter tracking, admin dashboard flows, secure QR validation, and production-minded API hardening.',
     proof: [
       'Integrated Paystack payments and webhook verification',
       'QR-based ticket validation and check-in workflows',
       'Admin tooling for events, galleries, promos, and tracking',
     ],
     links: [
-      { href: 'https://hausofmykonos.com', label: 'Live platform' },
+      { href: 'https://hausofmykonos.com', label: 'Live site' },
       { href: 'https://github.com/nahnahdev/haus-of-mykonos', label: 'Source code' },
     ],
   },
   {
-    id: 3,
-    name: 'Claims Management System',
-    stack: [
-      'Python',
-      'Flask',
-      'PostgreSQL',
-      'Firebase',
-      'Async APIs',
-      'Billing workflows',
-    ],
-    description:
-      'A Python-based claims management and billing system built for a U.S. medical practice, covering patient appointments, insurance workflows, claims creation, and submission.',
-    impact:
-      'This project is a strong backend proof point because it centered on workflow-heavy delivery in a regulated setting, including asynchronous API calls that improved response time and supported real operational use.',
-    proof: [
-      'Claims creation, submission, and billing workflow support',
-      'Async API integration that improved response time by 40%',
-      'Built around real operational use in a medical setting',
-    ],
-    links: [
-      { href: '#contact', label: 'Discuss project' },
-      { href: 'mailto:nahnahahjuwah@gmail.com', label: 'Request details' },
-    ],
-  },
-  {
-    id: 4,
+    id: 6,
     name: 'Ceditrack',
     stack: [
       'React Native',
@@ -106,8 +154,6 @@ const featuredProjects = [
     ],
     description:
       'A mobile finance app for tracking cash, MoMo, bank activity, personal debts, transfers, and susu group savings in one place.',
-    impact:
-      'This project adds mobile product depth to the portfolio and shows how I think about everyday financial workflows, onboarding, state management, and utility-driven interface design.',
     proof: [
       'Onboarding and month-based budgeting flows',
       'Debt tracking, transfers, and susu group savings support',
@@ -128,8 +174,8 @@ const Projects = () => (
       <p>
         This collection is curated to reflect the kind of engineer I am now:
         someone who can build around real operations, shape dependable product
-        workflows, and support systems with stronger backend and infrastructure
-        thinking.
+        workflows, and carry systems from interface decisions through backend
+        logic, integrations, and deployment.
       </p>
     </div>
 
@@ -146,7 +192,6 @@ const Projects = () => (
           <div className="project-card__content">
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <p className="project-card__impact">{project.impact}</p>
             <ul className="project-proof-list">
               {project.proof.map((item) => (
                 <li key={`${project.id}-${item}`}>{item}</li>

@@ -2,15 +2,15 @@ import React, { useEffect, useState } from 'react';
 import Socials from './Socials';
 
 const roles = [
-  'Full-Stack Software Engineer',
   'Backend & Infrastructure Engineer',
-  'Cloud & Deployment Engineer',
+  'Platform Integration Specialist',
+  'Full-Stack Software Engineer',
 ];
 
 const highlights = [
-  '4+ years building and shipping production systems across web, mobile, and backend',
-  'Workflow-heavy systems across retail operations, claims management, and cross-system sync',
-  'Infrastructure depth across AWS, DigitalOcean, CI/CD, deployment, and reliability',
+  '4+ years deploying and supporting production systems across web, mobile, backend, and cloud',
+  'Workflow-heavy platforms across retail operations, claims management, and cross-system integrations',
+  'Hands-on infrastructure work across AWS, DigitalOcean, CI/CD, Nginx, SSL, and release automation',
 ];
 
 const Homepage = () => {
@@ -35,12 +35,12 @@ const Homepage = () => {
           </h1>
           <p className="hero-role">{roles[roleIndex]}</p>
           <p className="hero-summary">
-            I&apos;m Felicia G. Awuah, a full-stack engineer with infrastructure
-            depth, building across web, mobile, and the systems behind them. I
-            work on operational systems where product clarity, dependable
-            engineering, and real business needs all have to meet,
-            from retail platforms and mobile finance tools to claims workflows
-            and connected-system sync.
+            I&apos;m Felicia G. Awuah, a backend and infrastructure engineer who
+            also delivers full-stack systems end to end. I build workflow-heavy
+            software where dependable APIs, cloud deployment, integrations, and
+            usable interfaces all matter at once, from retail operations
+            platforms and mobile tools to healthcare claims workflows and
+            connected-system sync.
           </p>
 
           <div className="hero-actions">
@@ -67,18 +67,24 @@ const Homepage = () => {
 
           <div className="hero-panel__stats">
             <div>
-              <strong>Usable interfaces</strong>
-              <span>Designing flows that make complex work feel clearer and easier to use</span>
+              <strong>Full-stack delivery</strong>
+              <span>
+                Building frontend and backend flows that make complex
+                operational work clearer and easier to use
+              </span>
             </div>
             <div>
               <strong>Backend systems</strong>
-              <span>40+ models and 60+ API endpoints in production, structured to last</span>
+              <span>
+                Production APIs, claims workflows, auth migrations, and
+                platform integrations structured to last
+              </span>
             </div>
             <div>
               <strong>Infrastructure thinking</strong>
               <span>
-                AWS and DigitalOcean provisioning, CI/CD, and Nginx/SSL for
-                reliable deployments
+                AWS and DigitalOcean provisioning, CI/CD automation, and
+                Nginx/SSL for reliable deployments
               </span>
             </div>
           </div>

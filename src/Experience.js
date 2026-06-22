@@ -2,55 +2,48 @@ import React from 'react';
 
 const roles = [
   {
-    company: 'Purple Wave Auction',
-    role: 'Full-Stack Software Engineer',
-    period: '04/2025 – Present',
-    location: 'Remote',
+    company: 'PurpleWave',
+    role: 'Backend Engineer → Full-Stack Engineer',
+    period: '15 April 2025 – Present',
+    location: 'Remote · via DevOps Africa Limited',
     highlights: [
-      'Built and deployed backend services on AWS, provisioning infrastructure including EC2, Application Load Balancers, and security groups.',
-      'Automated multi-environment deployments with Capistrano and GitHub Actions, improving release consistency and reducing manual deployment risk.',
-      'Configured Nginx as a reverse proxy with SSL termination, and supported migration from default Rails authentication to a custom SSO/OAuth flow.',
-    ],
-  },
-  {
-    company: 'DevOps Africa Limited',
-    role: 'Back End Engineer',
-    period: '04/2025 – Present',
-    location: 'Accra, Ghana · On-site',
-    highlights: [
-      'Build and maintain backend services in Ruby on Rails and PostgreSQL for production systems.',
-      'Develop APIs and platform integrations supporting full-stack delivery across the team.',
-      'Apply DevOps and deployment practices to keep services reliable and consistently shipped.',
+      'Joined as a Backend Engineer, deploying and maintaining production Rails applications on AWS, managing server configuration, SSL, and uptime support.',
+      'Led migration from Rails default authentication to PurpleWave\'s custom auth flow, using Nginx to support routing and session handling across the transition.',
+      'Managed multi-service deployments across the pwas-api, pwas-web, pwas-heavyworth, and dashboard repositories, keeping staging and production environments aligned.',
+      'Progressed into a Full-Stack Engineer role, contributing across backend systems and user-facing product delivery.',
+      'Wrote and maintained deployment scripts per environment to support repeatable, auditable release processes.',
     ],
   },
   {
     company: 'Yazi Inc.',
     role: 'Lead Software Engineer',
-    period: '04/2024 – 05/2025',
+    period: 'April 2024 – May 2025',
+    location: 'Accra, Ghana',
     highlights: [
-      'Led delivery of software solutions across web and mobile projects for diverse clients.',
-      'Built a claims management and billing system in Python for a U.S.-based medical practice, supporting operational and administrative workflows.',
-      'Modernised legacy codebases to improve maintainability and delivery speed, reducing operating costs.',
+      'Architected and deployed backend services to AWS, provisioning infrastructure from scratch including EC2 instances, Application Load Balancers, and Security Groups before first deployment.',
+      'Automated multi-environment deployments with Capistrano and GitHub Actions, with secrets managed through AWS Secrets Manager and GitHub environments.',
+      'Configured Nginx as a reverse proxy with SSL termination and supported migration from default Rails authentication to a custom SSO/OAuth flow.',
+      'Modernised legacy codebases to current Rails conventions, improving maintainability, performance, and delivery speed.',
     ],
   },
   {
     company: 'Alveohive',
     role: 'Full-Stack Developer',
-    period: '01/2023 – 05/2024',
+    period: 'January 2023 – May 2024',
     highlights: [
       'Increased property listings by 40% by building a modern real-estate platform with Next.js, TypeScript, Tailwind CSS, and Ruby on Rails.',
       'Built a mobile application for property tracking, enabling field agents to manage listings and locations efficiently.',
-      'Supported migration from a legacy platform while maintaining continuity, feature parity, and stability.',
+      'Maintained a legacy system while building and migrating to a new platform, preserving database continuity, feature parity, and stability.',
     ],
   },
   {
     company: 'Microverse',
     role: 'Code Reviewer & Mentor',
-    period: '01/2023 – 12/2023',
+    period: 'January 2023 – December 2023',
     highlights: [
-      'Conducted 800+ code reviews across HTML & CSS, JavaScript, React-Redux, Ruby, and Ruby on Rails, upholding best practices.',
-      'Mentored a team of 4 junior developers, contributing to a 15% increase in program longevity and participant motivation.',
-      'Recognised with the "Code Reviewer of the Month" award for consistent quality scores.',
+      'Conducted 800+ code reviews across HTML, CSS, JavaScript, React-Redux, Ruby, and Ruby on Rails for an international cohort of developers.',
+      'Mentored a team of 4 junior developers and was recognised with the "Code Reviewer of the Month" award for quality and consistency.',
+      'Contributed advice and strategies that improved overall programme longevity and participant motivation.',
     ],
   },
 ];
@@ -61,9 +54,9 @@ const Experience = () => (
       <p className="eyebrow">Experience</p>
       <h2>Four+ years building and shipping production systems.</h2>
       <p>
-        A track record across full-stack delivery, backend systems, and cloud
-        infrastructure, with growing leadership in how software gets built,
-        deployed, and supported.
+        A track record across backend systems, full-stack delivery, and cloud
+        infrastructure, with growing leadership in how software gets deployed,
+        integrated, and supported in production.
       </p>
     </div>
 
