@@ -25,6 +25,7 @@ const featuredProjects = [
       '40+ domain models and 60+ API endpoints',
       'Offline-first PWA support for low-connectivity retail use',
       'Per-location sync, reconciliation, and retry-safe transaction flows',
+      'Deployed to DigitalOcean with Kamal, Nginx, and SSL termination',
     ],
     links: [
       { href: 'https://feltrac.com', label: 'Live app' },

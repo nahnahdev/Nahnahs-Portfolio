@@ -4,6 +4,7 @@ import BrandMark from './BrandMark';
 const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#projects', label: 'Work' },
+  { href: '#experience', label: 'Experience' },
   { href: '#about', label: 'About' },
   { href: '#contact', label: 'Contact' },
 ];

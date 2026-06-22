@@ -278,6 +278,7 @@
   .about-profile,
   .about-skills,
   .strength-card,
+  .experience-card,
   .contact-panel,
   .contact-form {
     backdrop-filter: blur(12px);
@@ -455,6 +456,60 @@
     border-radius: 2rem;
 
     @apply p-6;
+  }
+
+  .experience-timeline {
+    border-left: 2px solid var(--border);
+
+    @apply mt-6 ml-2 list-none space-y-8 p-0 pl-6 md:pl-8;
+  }
+
+  .experience-item {
+    @apply relative;
+  }
+
+  .experience-item::before {
+    content: '';
+    background: var(--accent);
+    border: 3px solid var(--surface-strong);
+
+    @apply absolute -left-[1.85rem] top-7 h-3 w-3 rounded-full md:-left-[2.35rem];
+  }
+
+  .experience-card {
+    border-radius: 1.75rem;
+
+    @apply p-6 md:p-7;
+  }
+
+  .experience-card__head {
+    @apply flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1;
+  }
+
+  .experience-card__head h3 {
+    @apply text-xl font-bold md:text-2xl;
+  }
+
+  .experience-card__period {
+    color: var(--muted);
+
+    @apply text-sm font-medium;
+  }
+
+  .experience-card__company {
+    color: var(--accent-deep);
+
+    @apply mt-1 text-sm font-bold;
+  }
+
+  .experience-highlights {
+    @apply mt-4 space-y-3 pl-5;
+  }
+
+  .experience-highlights li {
+    color: var(--muted);
+
+    @apply text-sm leading-6;
   }
 
   .contact-panel {
